@@ -1,3 +1,7 @@
+library(readxl)
+library(data.table)
+library(tidyverse)
+library(xml2)
 
 LoS_Readmit_func <- function(df,...) {
   vars <- enquos(...)
